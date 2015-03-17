@@ -1,7 +1,7 @@
 {
-  "name": "karma-ng-html2js-preprocessor",
+  "name": "karma-ng-html2js-with-require-preprocessor",
   "version": "0.1.2",
-  "description": "A Karma plugin. Compile AngularJS templates to JavaScript on the fly.",
+  "description": "A Karma plugin. Compile AngularJS templates to JavaScript require definitions on the fly.",
   "main": "lib/index.js",
   "scripts": {
     "test": "grunt test"
@@ -15,7 +15,8 @@
     "karma-preprocessor",
     "angularjs",
     "angular",
-    "html2js"
+    "html2js",
+    "requirejs"
   ],
   "author": "Vojta Jina <vojta.jina@gmail.com>",
   "dependencies": {},
@@ -44,6 +45,7 @@
     "Murphy McMahon <pandeiro@gmail.com>",
     "Pawel Kozlowski <pkozlowski.opensource@gmail.com>",
     "Robin Roestenburg <robin@roestenburg.io>",
-    "Sahat Yalkabov <sakhat@gmail.com>"
+    "Sahat Yalkabov <sakhat@gmail.com>",
+    "Karl Schaefer <karlgschaefer+ng-htmljs@gmail.com>"
   ]
 }
